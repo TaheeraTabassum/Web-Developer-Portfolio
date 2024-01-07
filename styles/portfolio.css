@@ -80,6 +80,9 @@ main{
     margin: 0px auto;
 
 }
+main section{
+    margin-top: 130px;
+}
 .about{
     border-radius: 10px;
 background: #FFF8F3;
@@ -95,7 +98,7 @@ font-size: 35px;
 font-weight: 700;
 
 }
-.section-discription{
+.section-description{
     color: var(--Dark-03, #757575);
 text-align: center;
 font-size: 18px;
@@ -108,4 +111,62 @@ line-height: 30px; /* 166.667% */
 }
 .info-title{
     text-align: center;
+}
+#what-i-do{
+    text-align: center;
+    padding: 30px 150px;
+
+}
+.skill-conteinar{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.skill{
+   max-width: 201px;
+   font-weight: 400;
+   padding: 100px 33px 30px  33px;
+font-size: 16px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.summary-title{
+    text-align: center;
+    color: var(--Dark-01, #181818);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+
+}
+.resume-title{
+    color: var(--Dark-02, #474747);
+font-size: 30px;
+font-weight: 700;
+
+}
+.summary-conteinar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.education-info{
+    color: var(--Dark-02, #474747);
+font-size: 25px;
+font-weight: 700;
+}
+.resume-description{
+    color: var(--Dark-03, #757575);
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.institute{
+    color: var(--Dark-03, #757575);
+font-size: 20px;
+font-weight: 600;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 30px;
 }
